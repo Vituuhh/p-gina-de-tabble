@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja de Informática - Página 1</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        #topo {
+            background-color: green;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        /* Links internos */
+        nav a {
+            padding: 10px;
+            color: blue;
+            text-decoration: none;
+        }
+        /* Estilos da tabela */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid red;
+            background-color: green;
+        }
+        table th, table td {
+            border: 1px solid red;
+            padding: 10px;
+            text-align: center;
+        }
+        table th {
+            background-color: white;
+        }
+        table td:nth-child(2) {
+            background-color: blue;
+            font-weight: bold;
+        }
+        hr {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Seção 1: Letreiro Digital -->
+    <div id="topo">
+        <h1>Letreiro Digital</h1>
+    </div>
+
+    <!-- Links para as seções -->
+    <nav>
+        <a href="#tabela-precos">Tabela de Preços</a> |
+        <a href="#cursos">Cursos</a> |
+        <a href="#fotos">Fotos</a> |
+        <a href="pagina2.html">Ir para a Página 2</a>
+    </nav>
+
+    <!-- Seção 2: Tabela de Preços -->
+    <h2 id="tabela-precos">Tabela de Preços</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Estoque</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Capa estofado</td>
+                <td><strong>R$ 15,00</strong></td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Pneu</td>
+                <td><strong>R$ 130,00</strong></td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Lanterna traseira</td>
+                <td><strong>R$ 12,00</strong></td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- Seção 3: Cursos -->
+    <h2 id="cursos">Cursos</h2>
+    <ul>
+        <li>Curso Técnico de Administração</li>
+        <li>Curso Técnico de Informática</li>
+        <li>Provas Trimestrais</li>
+    </ul>
+
+    <hr>
+
+    <!-- Seção 4: Fotos -->
+    <h2 id="fotos">Fotos dos Cursos</h2>
+    <img src="https://jornadaedu.com.br/wp-content/uploads/2019/08/Post_CriançaDesenho.jpg" alt="curso1">
+    
+    <!-- Nome do aluno alinhado à esquerda -->
+    <p style="text-align: left;">Nome do aluno: <strong>José da Silva</strong></p>
+    
+    <hr>
+
+    <!-- Link para voltar ao topo da página -->
+    <a href="#topo">Voltar ao topo</a>
+
+</body>
+</html>
